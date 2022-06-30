@@ -1,0 +1,386 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="{% static 'capstone/mystyles.css' %}" rel="stylesheet">
+    <title>Kafa Portal</title>
+  </head>
+  <body>
+  <div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top">
+      <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-div">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-div">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+     <!-- end of navbar -->
+     <!--------------------------------------------------------------------->
+     <!-- carousel --> 
+  <div class="carousel-fluid mb-0">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 mb-lg-3 mb-md-2 mb-auto" src="{%static 'img/2.jpg' %}" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 mb-lg-3 mb-md-2 mb-auto" src="{%static 'img/2.jpg' %}" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 mb-lg-3 mb-md-2 mb-auto" src="{%static 'img/2.jpg' %}" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- end of carousel -->
+<!------------------------------------------------------------------------>
+  <!-- start of about section -->
+<div id="about-div" class="mt-lg-3 mt-md-1 mt-0 pb-5">
+  <div class="post-heading text-center">
+       <h3 class="display-4 font-weight-bold">Who Am I? </h3>
+       <hr class="w-50 mb-lg-4 mb-md-4 mb-4">
+  </div>
+<div class="row" >
+  <div class="col-lg-12 col-md-12 col-12">
+    <p  class="text-center">
+      Ambitious software Engineer seeking a creative opportunity to execute software solutions in a 
+      growth-oriented company where I can prove myself and boost my understanding of coding and 
+      software development to efficiently fulfil the requirements of clients.
+    </p>
+  </div>
+</div>
+</div>
+
+
+  <!-- end of about section -->
+  <!----------------------------------------------------------------------->
+    <!-- start of experienceSection section -->
+    <div id="aboutSection" class="mt-lg-3 mt-md-1 mt-0 pb-5">
+      <div class="post-heading text-center">
+           <h3 class="display-4 font-weight-bold">Experience: </h3>
+           <hr class="w-50 mb-lg-4 mb-md-4 mb-4">
+      </div>
+<div id="experienceSection" class="">
+  <ul class="timeline">
+    <li class="timeline-item mb-5">
+      <h5 class="fw-bold">Web Developer, self-employed</h5>
+      <p class="text-muted mb-2 fw-bold">11/2021-present</p>
+      <p class="text-muted">
+        <ul>
+          <li>
+            Working on multiple personal projects that allow me to gain more knowledge in web 
+            development.
+          </li>
+          <li>
+            Developing a personal website that demonstrates my skills in software engineering
+          </li>
+        </ul>
+      </p>
+    </li>
+
+    <li class="timeline-item mb-5">
+      <h5 class="fw-bold">Web Developer, at LaamarRose Marketing & Trading</h5>
+      <p class="text-muted mb-2 fw-bold">04/2021-11/2021</p>
+      <p class="text-muted">
+       <ul>
+        <li>
+          Design and establish user-friendly web applications, including optimizing existed applications.
+        </li>
+        <li>
+          Develop cross-platform applications that guarantees high traffic, page views, and maximum user experience, generating great increase in the company's sales revenue.
+        </li>
+        <li>
+          Gather all projects requirements with 96% fidelity to client needs.
+        </li>
+       </ul>
+      </p>
+    </li>
+
+    <li class="timeline-item mb-5">
+      <h5 class="fw-bold">Freelance Software Developer</h5>
+      <p class="text-muted mb-2 fw-bold">24 June 2020</p>
+      <p class="text-muted">
+     <ul>
+      <li>
+        Developed and Modified software programs.
+      </li>
+      <li>
+        Worked on many personal projects to build my skills set.
+      </li>
+      <li>
+        teach students about last web technologies and how to use programming tools and 
+        languages in their work and lives
+      </li>
+      <li>
+        Teach students agile methodologies to increase performance, improve customer satisfaction, 
+        and increase project versatility.        
+      </li>
+     </ul>
+      </p>
+    </li>
+  </ul>
+</section>
+</div>
+
+
+  <!-- end of experienceSection section -->
+  <!----------------------------------------------------------------------->
+      <!-- start of educationSection section -->
+      <div id="aboutSection" class="mt-lg-3 mt-md-1 mt-0 pb-5">
+        <div class="post-heading text-center">
+             <h3 class="display-4 font-weight-bold">Education: </h3>
+             <hr class="w-50 mb-lg-4 mb-md-4 mb-4">
+        </div>
+<div id="educationSection" class="">
+<ul class="timeline">
+  <li class="timeline-item mb-5">
+    <h5 class="fw-bold">Bachelor's Degree in Informatics Engineering</h5>
+    <p class="text-muted mb-2 fw-bold">10/2016- 10/2020</p>
+    <p class="text-muted">
+      <ul>
+        <li>
+          Tishreen University – Syrian Arab Republic
+        </li>
+        <li>
+          Cumulative GPA 3.1/4.0 
+        </li>
+      </ul>
+    </p>
+  </li>
+
+  <li class="timeline-item mb-5">
+    <h5 class="fw-bold">Technical Diploma in Computer Engineering</h5>
+    <p class="text-muted mb-2 fw-bold">10/2014 – 08/2016</p>
+    <p class="text-muted">
+     <ul>
+      <li>
+        Tishreen University – Syrian Arab Republic
+      </li>
+      <li>
+        Cumulative GPA 3.6/4.0
+      </li>
+     </ul>
+    </p>
+  </li>
+</ul>
+</section>
+</div>
+  <!-- end of educationSection section -->
+  <!----------------------------------------------------------------------->
+      <!-- start of skillsSection section -->
+      <div id="aboutSection" class="mt-lg-3 mt-md-1 mt-0 pb-5">
+        <div class="post-heading text-center">
+             <h3 class="display-4 font-weight-bold">Skills: </h3>
+             <hr class="w-50 mb-lg-4 mb-md-4 mb-4">
+        </div>
+<div id="skillsSection" class="">
+  <img class="animatedSkillsIcon" src="{%static 'icons/java.png' %}" alt="java"/> &nbsp;  &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="js"/> &nbsp; &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/py.png' %}" alt="py"/>&nbsp; &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/> &nbsp;  &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/> &nbsp; &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/>&nbsp; &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/> &nbsp;  &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/> &nbsp; &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/>&nbsp; &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/> &nbsp;  &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/> &nbsp; &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/>&nbsp; &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/> &nbsp;  &nbsp;
+  <img class="animatedSkillsIcon" src="{%static 'icons/js.png' %}" alt="java"/> &nbsp; &nbsp;
+</div>
+
+
+  <!-- end of skillsSection section -->
+  <!----------------------------------------------------------------------->
+
+
+
+
+
+      <!-- start of awardSection section -->
+      <div id="aboutSection" class="mt-lg-3 mt-md-1 mt-0 pb-5">
+        <div class="post-heading text-center">
+             <h3 class="display-4 font-weight-bold">Awards: </h3>
+             <hr class="w-50 mb-lg-4 mb-md-4 mb-4">
+        </div>
+<div id="awardSection" class="">
+  <section class="resume-section" id="awards">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Awards & Certifications</h2>
+        <ul class="fa-ul mb-0">
+            <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                Professional Scrum Master I :
+                <ul>
+                  <li>
+                    Awarded by Scrum.org for showing an understanding of Scrum as described in the Scrum 
+                    Guide, also demonstrating a consistent use of terminology and approach to Scrum
+                  </li>
+                </ul>
+            </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+            1
+            <sup>st</sup>
+            Place - institute of Computer Technologies , Tishreen University - latakia 2016
+        </li>
+        </ul>
+    </div>
+</section>
+</div>
+
+
+  <!-- end of awardSection section -->
+  <!----------------------------------------------------------------------->
+
+
+
+
+  <div id="aboutSection" class="mt-lg-3 mt-md-1 mt-0 pb-5">
+    <div class="post-heading text-center">
+         <h3 class="display-4 font-weight-bold">Interests: </h3>
+         <hr class="w-50 mb-lg-4 mb-md-4 mb-4">
+    </div>
+      <!-- start of interestsSection section -->
+<div id="interestsSection" class="text-center">
+  <img class="animatedSkillsIcon1" src="{%static 'icons/coding.png' %}" alt="Coding"/> &nbsp; &nbsp;
+  <img class="animatedSkillsIcon2" src="{%static 'icons/gaming.png' %}" alt="Gaming"/>&nbsp; &nbsp;
+  <img class="animatedSkillsIcon3" src="{%static 'icons/music.png' %}" alt="Music"/> &nbsp;  &nbsp;
+  <img class="animatedSkillsIcon4" src="{%static 'icons/reading.png' %}" alt="Reading"/> &nbsp; &nbsp;
+</div>
+<!---------------------start of contact form-------------------------------->
+<div class="myFormDiv" id="contact-div">
+<!--Section: Contact v.2-->
+<section class="mb-4">
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Get in touch:</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+
+  <div class="row" >
+      <div class="text-center col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="{% url 'feedback' %}" method="POST">
+            {% csrf_token %}
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control" required>
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="email" id="email" name="email" class="form-control" required>
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+              <button type="submit" class="btn btn-dark">Send</button>
+          </form>
+      </div>
+  </div>
+</section>
+</div>
+
+<!-------------------------end of contact form------------------------------->
+  <!-- end of interestsSection section -->
+  <!----------------------------------------------------------------------->
+<!------------------------ start of subscribe section------------------------------------->
+<div id="subscrribeSection" class="mt-lg-3 mt-md-1 mt-0 pb-5">
+  <div class="post-heading text-center">
+       <h3 class="display-4 font-weight-bold">Subscribe </h3>
+       <hr class="w-50 mb-lg-4 mb-md-4 mb-4">
+  </div>
+  <div id="subscribeSection" class="subscribeForm text-center">
+    <p>Subscribe to receive my latest news.</p>
+    <form class="form-inline mt-2" action="{% url 'subscribe' %}" method="post">
+      {% csrf_token %}
+      <input type="email" class="form-control" placeholder="Enter Your Email" id="email" name="email" required>&nbsp; &nbsp;
+      <button type="submit" class="btn btn-dark">Subscribe</button>
+    </form>
+  </div>
+
+<!------------------------ end of subscribe section------------------------------------->
+
+<!-- start of footer section -->
+<footer id="footer" class="mt-5 mb-0 bg-dark text-center text-white">
+  <div class="container p-4 pb-0">
+    <section class="mb-4">
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100076127078109" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+        </a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/c/YoussefKafa"  target="_blank"
+        ><i class="fab fa-youtube"></i
+      ></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/youssefkafa/" target="_blank" 
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/YoussefKafa" target="_blank" 
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="#">KafaPortal.com</a>
+  </div>
+</footer>
+  <!-- end of footer section -->
+  <!----------------------------------------------------------------------->
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

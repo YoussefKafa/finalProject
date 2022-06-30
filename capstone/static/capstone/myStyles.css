@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+body {
+    padding:0;
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.navbar{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:15px;
+    font-weight: 1000;
+    letter-spacing: 0.3rem;
+    color:aliceblue !important;
+    background-color: rgb(53, 51, 57) !important;
+    opacity: 0.5;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:red;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-3px);
+}
+
+#aboutPara{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:15px;
+    font-weight: 1000;
+    letter-spacing: 0.3rem;
+}
+
+
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+  }
+
+  .timeline .timeline-item {
+    position: relative;
+  }
+
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+
+  .timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+  }
+
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+  .animatedSkillsIcon:focus {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    padding: 30px;
+  }
+
+  .subscribeForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
